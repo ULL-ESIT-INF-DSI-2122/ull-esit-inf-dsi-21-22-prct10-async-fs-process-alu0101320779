@@ -3,7 +3,7 @@ title: "Práctica 10"
 ---
 
 > Desarrollo en Sistemas Informáticos
-> ------
+
 # Ejercicio 1:
 
 En este primer ejercicio lo que hago es ejecutar el siguiente código:
