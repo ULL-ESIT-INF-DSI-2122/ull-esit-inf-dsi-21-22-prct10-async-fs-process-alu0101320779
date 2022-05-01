@@ -59,3 +59,10 @@ Y me muestra que esta observando los cambios del fichero, y que no se han observ
 
 - Después de esta prueba lo que hago es modificarlo, me muestra por pantalla que se hicieron cambios.
 - Finalmente la última prueba que hago es eliminar el fichero mientras se están observando cambios, lo que hace el código es mostrarme por pantalla que se hicieron cambios.
+
+La traza de esta ejecución sería, en primer lugar se mandan las funciones al call stack y se sacarán de ahí cuando devuelvan un valor, en este caso se comprueba si se ha introducido correctamente el fichero, después se comprueba si se puede abrir el fichero y en el caso de que no se pueda manda un error, después de comprobar eso y de que haya pasado todo por el call stack, se manda a `watcher` a la web API a la espera de que el fichero sea modificado, en el caso de que se modifique se manda a la cola y es ejecutado.
+- Lo que hacen las funciones `access` y `constants` es acceder al fichero indicado y comprobar los permisos del fichero respectivamente, para ver si se puede llevar a cabo la lectura y escritura del mismo.
+
+# Ejercicio 2
+
+
