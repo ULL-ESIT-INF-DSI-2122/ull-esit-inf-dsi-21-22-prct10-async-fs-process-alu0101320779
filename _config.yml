@@ -6,4 +6,4 @@ description: >
 github_username:  alu0101320779 
 
 show_excerpts: false
-theme: minima
+theme: jekyll-theme-slate
